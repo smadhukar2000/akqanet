@@ -5,7 +5,12 @@ $(document).ready(function () {
 	function apiResult(response)
 	{
 		console.log(response);
-		$('#txtResult').html(response.AmountInWords);		
+		$('#txtResult').html("Result => " + response.AmountInWords);		
+	}
+
+	function apiError(response)
+	{
+		alert("Please change IIS port number.");
 	}
 
 	// validate inputs
@@ -31,7 +36,7 @@ $(document).ready(function () {
 			type: 'get',
 			url: url,
 			success: apiResult,
-			error: apiResult,
+			error: apiError,
 		});
 
 	});
