@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "akqa", "akqa\akqa.csproj", "{79C0F2AE-C300-4B91-9407-53A7242566B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "akqa.Tests", "akqa.Tests\akqa.Tests.csproj", "{3B48DD41-1941-40DC-975A-3F4AA243CF20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79C0F2AE-C300-4B91-9407-53A7242566B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C0F2AE-C300-4B91-9407-53A7242566B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C0F2AE-C300-4B91-9407-53A7242566B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C0F2AE-C300-4B91-9407-53A7242566B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B48DD41-1941-40DC-975A-3F4AA243CF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B48DD41-1941-40DC-975A-3F4AA243CF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B48DD41-1941-40DC-975A-3F4AA243CF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B48DD41-1941-40DC-975A-3F4AA243CF20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB632C35-FDCC-40D0-8DC8-8DA67663A8A2}
+	EndGlobalSection
+EndGlobal
